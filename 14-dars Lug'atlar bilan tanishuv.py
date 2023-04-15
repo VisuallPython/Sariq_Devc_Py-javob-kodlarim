@@ -131,11 +131,47 @@
 # print(f"{kiritish}: {py_lugat[kiritish]}")
 
 
-    # 5-topshiriq
+#     # 5-topshiriq. Yuqoridagi vazifani if() else() bilan bajarish;
+# py_lugat = {
+#     'int':'butun sonlar',
+#     'float':'o\'nlik son',
+#     'bool':'shart operatori',
+#     'string':"so'zlardan iborat matn turi",
+#     'if':'qiymatni shart buyicha tekshirish',
+#     'else':'if bajarilmagan holatdagi shartni bajaradi',
+#     'for':'takrorlanish operatori',
+#     'pop':'sonlarni darajaga oshiradi',
+#     'max':'sonlarning eng kattasini aniqlaydi',
+#     'min':'sonlarning eng kichigini aniqlaydi',
+#     'title':'qatordagi barcha so\'zlarni katta harf qilib beradi'
+# }
+# for i in range(1, 12):
+#     kiritish = input("Kalit so'z kiriting: ")
+#     if kiritish in py_lugat:
+#         print(f"{kiritish}: {py_lugat[kiritish]}, \n")
+#     else:
+#         print("Bunday kalit so'z yo'q!")
 
+    # 2-usul bilan yechish
 
-
-
+# python_izohli_lugati = {
+#     "integer": "Butun son",
+#     "float": "O'nlik son",
+#     "string": "Matn",
+#     "list": "Ro'yxat",
+#     "tuple": "O'zgarmas ro'yxat",
+# }
+# kalit = input("Kalit so'z kiriting:").lower()
+# print(python_izohli_lugati.get(kalit, "Bunday so'z mavjud emas"))
+#
+# kalit = input("Kalit so'z kiriting:").lower()
+# tarjima = python_izohli_lugati.get(kalit)
+# if tarjima == None:
+#     print("Bunday so'z mavjud emas")
+# else:
+#     print(f"{kalit.title()} so'zi {tarjima} deb tarjima qilinadi")
+#
+#
 
 
 
